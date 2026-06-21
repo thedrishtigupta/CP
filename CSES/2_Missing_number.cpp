@@ -15,4 +15,6 @@ int main() {
     long long expSum = n * (n+1) / 2;
 
     cout << expSum - sum<<endl;
+
+    return 0;
 }
