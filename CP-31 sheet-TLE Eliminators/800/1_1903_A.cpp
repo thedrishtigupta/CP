@@ -25,7 +25,7 @@ int main() {
 
         bool isSorted = is_sorted(a.begin(), a.end());
 
-        cout<< (!isSorted && k == 1) ? "NO" : "YES" <<'\n';
+        cout<< ((!isSorted && k == 1) ? "NO" : "YES") <<'\n';
     }
 
     return 0;
